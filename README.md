@@ -5,7 +5,7 @@ Test
 0. Lite test
 0. Lite test
 
-[WIKI](./wiki)
+[WIKI](../../wiki)
 
 ```powershell
 do {
