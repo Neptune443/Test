@@ -1,0 +1,6 @@
+{
+  "name": "Test",
+  "tagline": "Test",
+  "body": "# Test\r\nTest\r\n0. Lite test\r\n0. Lite test\r\n0. Lite test\r\n0. Lite test\r\n\r\n[WIKI](../../wiki)\r\n\r\n```powershell\r\ndo {\r\n    $res = $udpClient.BeginReceive($null,$null)\r\n    while(-not $res.IsCompleted){Start-Sleep -Milliseconds 50}\r\n    $r = $udpClient.EndReceive($res,[ref]$senderAddress)\r\n    $r|Format-Hex\r\n    $senderAddress\r\n} while ($true)\r\n```\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
